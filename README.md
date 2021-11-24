@@ -1,2 +1,3 @@
 # Particles-js-text-effect
-An interactive particles effect on text.
+<H3>An interactive particles effect on text</H3><br>
+This particles system is coded from scratch, without using any library.

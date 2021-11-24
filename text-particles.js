@@ -12,19 +12,19 @@ const mouse = {
     radius: 150
 }
 
-window.addEventListener('mousemove', function(event) {
+window.addEventListener('mousemove', function (event) {
     mouse.x = event.x
     mouse.y = event.y
 })
 
 // Gradient for text
 
-let gradient = ctx.createLinearGradient(0, 0, 100, 100)
-gradient.addColorStop(0, '#7161F5')
-gradient.addColorStop(1, '#62F5E6')
+// const gradient = ctx.createLinearGradient(0, 0, 100, 100)
+// gradient.addColorStop(0, 'rgba(113, 97, 245, 0.2)')
+// gradient.addColorStop(1, 'rgba(98, 245, 230, 0.2)')
 
 // Drawing text
-
-ctx.fillStyle = gradient
-ctx.font = '700 50px Expansiva'
-ctx.fillText('Ala ma kota', 0, 40)
+ctx.fillStyle = 'rgb(113, 97, 245, 0.15)'
+ctx.font = '700 150px Expansiva'
+ctx.fillText('Piotr', canvas.width * .1, canvas.height * .3)
+ctx.fillText('Bania', canvas.width * .1, canvas.height * .5)
